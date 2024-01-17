@@ -1,0 +1,11 @@
+	length [file]
+
+Returns length of file, plus null terminator at the end.
+
+Options
+	file: The file to read. If unspecified, reads stdin.
+
+Example
+	echo "Hello!" > file.txt
+	length file.txt # Returns 7
+	cat file.txt | length # Returns 7

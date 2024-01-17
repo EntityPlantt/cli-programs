@@ -1,0 +1,11 @@
+	sha [file]
+
+Returns SHA-256 hash of file.
+
+Options
+	file: The file to read. If unspecified, reads stdin.
+
+Example
+	echo "Hello!" > file.txt
+	sha file.txt # Returns b22b009134622b6508d756f1062455d71a7026594eacb0badf81f4f677929ebe
+	cat file.txt | sha # Returns b22b009134622b6508d756f1062455d71a7026594eacb0badf81f4f677929ebe
