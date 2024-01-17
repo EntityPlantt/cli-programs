@@ -14,7 +14,7 @@ cat file.txt | sha # b22b009134622b6508d756f1062455d71a7026594eacb0badf81f4f6779
 ```bash
 make # Compile to /dist
 make install dest=$destination # Compile & install
-sudo make install # default path: /usr/local/bin
+make install # default path: ~/.local/bin
 make clean # Remove compile directory
 ```
 

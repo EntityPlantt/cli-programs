@@ -1,4 +1,4 @@
-dest ?= /usr/local/bin
+dest ?= ~/.local/bin
 SOURCES := $(wildcard src/*.cpp)
 EXECUTABLES := $(patsubst src/%.cpp,dist/%,$(SOURCES))
 DEST_EXEC := $(patsubst dist/%,$(dest)/%,$(EXECUTABLES))
