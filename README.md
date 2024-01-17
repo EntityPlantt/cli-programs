@@ -16,6 +16,8 @@ make # Compile to /dist
 make install dest=$destination # Compile & install
 make install # default path: ~/.local/bin
 make clean # Remove compile directory
+make uninstall dest=$destination # Uninstall from directory
+make uninstall # Uninstall from ~/.local/bin
 ```
 
 ## Contribuiting
